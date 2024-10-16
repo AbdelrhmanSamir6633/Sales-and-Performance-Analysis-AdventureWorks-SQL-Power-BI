@@ -161,7 +161,8 @@ The model is structured with relationships connecting the fact tables (sales and
 
   The Sales Overview Dashboard provides a high-level summary of the key performance metrics related to sales, offering valuable insights into the overall performance of a business. Using the AdventureWorks dataset, the dashboard is designed to help decision-makers quickly assess sales trends, monitor key metrics, and identify opportunities for improvement.
 
-![Sales_Overview_Dashboard](https://github.com/user-attachments/assets/623b948c-fd5e-4df5-a5fa-d1744ceb3dba)
+![Sales_Overview_Dashbard](https://github.com/user-attachments/assets/679155fb-e61d-4427-b991-2820b4adbeaf)
+
 
   - **Customers Details Dashboard** 
 
