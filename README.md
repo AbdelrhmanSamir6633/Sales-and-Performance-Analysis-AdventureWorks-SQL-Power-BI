@@ -195,12 +195,18 @@ https://learn.microsoft.com/en-us/sql/samples/adventureworks-install-configure?v
 - <a href="https://github.com/AbdelrhmanSamir6633/AdventureWorks-DataAnalysis-SQL-Power-BI/blob/main/Update%20SQL%20Data%20Script.sql">Click Here</a>
 
 
-## Folder Structure
-......................................
-...................................
-....................................
-......................................
-
 
 ## Project Files/Folders
+
+- <a href="https://github.com/AbdelrhmanSamir6633/AdventureWorks-DataAnalysis-SQL-Power-BI/tree/main/1_Problem%20Explanation">1_Problem Explanation</a>
+
+- <a href="https://github.com/AbdelrhmanSamir6633/AdventureWorks-DataAnalysis-SQL-Power-BI/tree/main/2_SQL_queries">2_SQL_queries</a>
+
+- <a href="https://github.com/AbdelrhmanSamir6633/AdventureWorks-DataAnalysis-SQL-Power-BI/tree/main/3_CSV_Files">3_CSV_Files</a>
+
+- <a href="https://github.com/AbdelrhmanSamir6633/AdventureWorks-DataAnalysis-SQL-Power-BI/tree/main/4_PowerBI_Files">4_PowerBI_Files</a>
+
+- <a href="https://github.com/AbdelrhmanSamir6633/AdventureWorks-DataAnalysis-SQL-Power-BI/tree/main/5_Images_%26_Visualization">5_Images_&_Visualization</a>
+
+
 
