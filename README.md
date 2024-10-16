@@ -192,7 +192,7 @@ https://learn.microsoft.com/en-us/sql/samples/adventureworks-install-configure?v
 
 #### SQL Script for updating AdventureWorks Dataset
   - Run this query before starting to ensure having the updated version of the AdventureWorks dataset.
-- <a href="https://github.com/Microsoft/sql-server-samples/releases/download/adventureworks/AdventureWorksDW2019.bak">Click Here</a>
+- <a href="https://github.com/AbdelrhmanSamir6633/AdventureWorks-DataAnalysis-SQL-Power-BI/blob/main/Update%20SQL%20Data%20Script.sql">Click Here</a>
 
 
 ## Folder Structure
