@@ -118,20 +118,22 @@ In an analysis project using the AdventureWorks dataset, several tools and techn
 
   - **Power BI Data Model Overview:**
 
-    This data model is built to provide insights into sales performance and customer behavior across different products and regions. The model consists of FACT and DIMENSION tables designed to support advanced analytics and reporting.
+       This data model is built to provide insights into sales performance and customer behavior across different products and regions. The model consists of FACT and DIMENSION tables 
+   designed to support advanced analytics and reporting.
 
-Fact Tables:
+*Fact Tables:*
 
-FACT_InternetSales: Central to the model, this fact table contains detailed sales transaction data, including order keys, sales amounts, and dates related to internet sales.
-FACT_Budget: Tracks budget information, enabling a comparison of actual sales against planned budgets.
+  - FACT_InternetSales: Central to the model, this fact table contains detailed sales transaction data, including order keys, sales amounts, and dates related to internet sales.
+  - FACT_Budget: Tracks budget information, enabling a comparison of actual sales against planned budgets.
 
-Dimension Tables:
+*Dimension Tables:*
 
-DIM_Customer: Contains detailed information about customers, such as their location (city, country), name, gender, and the date of their first purchase.
-DIM_Products: Holds product-related details, including product categories, colors, descriptions, and models.
-DIM_Calendar: Provides a time dimension for the model, containing day, month, quarter, and year details to enable time-based analysis.
+  - DIM_Customer: Contains detailed information about customers, such as their location (city, country), name, gender, and the date of their first purchase.
+  - DIM_Products: Holds product-related details, including product categories, colors, descriptions, and models.
+  - DIM_Calendar: Provides a time dimension for the model, containing day, month, quarter, and year details to enable time-based analysis.
 
-Key Measures: Includes predefined measures such as profit & loss, sales efficiency (ROI), and budget amounts, helping to streamline analysis.
+*Key Measures:*
+  - Includes predefined measures such as profit & loss, sales efficiency (ROI), and budget amounts, helping to streamline analysis.
 
 The model is structured with relationships connecting the fact tables (sales and budget) to the relevant dimension tables (customer, product, and calendar). These relationships enable robust reporting and data exploration, allowing for insightful analysis of sales trends, customer demographics, product performance, and budget variance over time.
 
