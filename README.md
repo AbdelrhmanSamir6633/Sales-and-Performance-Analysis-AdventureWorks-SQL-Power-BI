@@ -74,10 +74,10 @@ In an analysis project using the AdventureWorks dataset, several tools and techn
    - *Objective*: Prepare the data for analysis by handling missing values, standardizing formats, and creating new calculated fields.
    - *Action*: Remove duplicates, handle null values, filter unnecessary rows, and format columns appropriately.
    - *Transformations*: Create new features like:
-                         * Total Sales = SUM(Sales Amount)
-                         * Total Budget = Sum(Budget Amount)
-                         * Profit & Loss = Total Sales - Total Budget
-                         * Sales Efficiency (ROI) = Total Sales / Total Budget
+       * Total Sales = SUM(Sales Amount)
+       * Total Budget = Sum(Budget Amount)
+       * Profit & Loss = Total Sales - Total Budget
+       * Sales Efficiency (ROI) = Total Sales / Total Budget
    - *Tools*: Power BI (Power Query).
    - *Outcome*: Cleaned, structured data that is ready for analysis and insights. 
 
