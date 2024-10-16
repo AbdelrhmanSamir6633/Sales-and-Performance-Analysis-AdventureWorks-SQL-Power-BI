@@ -116,19 +116,19 @@ In an analysis project using the AdventureWorks dataset, several tools and techn
 
 ## Key Visualizations
 
-**  - Sales Overview Dashboard** 
+  - **Sales Overview Dashboard** 
 
   The Sales Overview Dashboard provides a high-level summary of the key performance metrics related to sales, offering valuable insights into the overall performance of a business. Using the AdventureWorks dataset, the dashboard is designed to help decision-makers quickly assess sales trends, monitor key metrics, and identify opportunities for improvement.
 
 ![Sales_Overview_Dashboard](https://github.com/user-attachments/assets/623b948c-fd5e-4df5-a5fa-d1744ceb3dba)
 
-**  - Customers Details Dashboard** 
+  - **Customers Details Dashboard** 
 
   The Customer Details Dashboard provides an in-depth view of customer behavior, segmentation, and purchasing patterns to help businesses understand their customer base and optimize their engagement strategies.
 
 ![Customer_Details_Dashboard](https://github.com/user-attachments/assets/cafa0681-c8a1-4a19-b248-597e9af4e305)
 
-**  - Products Details Dashboard** 
+  - **Products Details Dashboard** 
 
   The Product Details Dashboard offers detailed insights into product performance, helping businesses understand which products are driving sales and how to optimize inventory and marketing strategies.
 
