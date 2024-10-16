@@ -70,6 +70,23 @@ In an analysis project using the AdventureWorks dataset, several tools and techn
   - *Tools*: SQL, SSMS. 
   - *Outcome*: Clean and well-structured data sets ready for analysis.
 
+    * *Internet Sales Table:*
+![SQL_FACT_InternetSales Table](https://github.com/user-attachments/assets/d2d40136-a30a-4d6d-9039-ceebee117f2e)
+
+
+    * *Customers Table:*
+![SQL_DIM_Customer Table](https://github.com/user-attachments/assets/5733923f-58e9-4980-9296-069875c9e943)
+
+   
+    * *Products Table:*
+![SQL_DIM_Products Table](https://github.com/user-attachments/assets/f6c3b14e-c524-47dc-868a-dde46f64ad1b)
+
+   
+    * *Calendar Table* 
+![SQL_DIM_Calendar Table](https://github.com/user-attachments/assets/eccf98ef-b6cd-4110-a4a1-c640d3a28195)
+
+
+
 4- Data Cleaning and Transformation
    - *Objective*: Prepare the data for analysis by handling missing values, standardizing formats, and creating new calculated fields.
    - *Action*: Remove duplicates, handle null values, filter unnecessary rows, and format columns appropriately.
