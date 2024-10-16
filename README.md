@@ -116,6 +116,28 @@ In an analysis project using the AdventureWorks dataset, several tools and techn
 
 ## Key Visualizations
 
+  - **Power BI Data Model Overview:**
+
+    This data model is built to provide insights into sales performance and customer behavior across different products and regions. The model consists of FACT and DIMENSION tables designed to support advanced analytics and reporting.
+
+Fact Tables:
+
+FACT_InternetSales: Central to the model, this fact table contains detailed sales transaction data, including order keys, sales amounts, and dates related to internet sales.
+FACT_Budget: Tracks budget information, enabling a comparison of actual sales against planned budgets.
+
+Dimension Tables:
+
+DIM_Customer: Contains detailed information about customers, such as their location (city, country), name, gender, and the date of their first purchase.
+DIM_Products: Holds product-related details, including product categories, colors, descriptions, and models.
+DIM_Calendar: Provides a time dimension for the model, containing day, month, quarter, and year details to enable time-based analysis.
+
+Key Measures: Includes predefined measures such as profit & loss, sales efficiency (ROI), and budget amounts, helping to streamline analysis.
+
+The model is structured with relationships connecting the fact tables (sales and budget) to the relevant dimension tables (customer, product, and calendar). These relationships enable robust reporting and data exploration, allowing for insightful analysis of sales trends, customer demographics, product performance, and budget variance over time.
+
+  ![Data Model](https://github.com/user-attachments/assets/139fe433-faae-4794-986d-f1e9b1e48ae4)
+
+  
   - **Sales Overview Dashboard** 
 
   The Sales Overview Dashboard provides a high-level summary of the key performance metrics related to sales, offering valuable insights into the overall performance of a business. Using the AdventureWorks dataset, the dashboard is designed to help decision-makers quickly assess sales trends, monitor key metrics, and identify opportunities for improvement.
@@ -139,7 +161,6 @@ In an analysis project using the AdventureWorks dataset, several tools and techn
 
 The analysis of the AdventureWorks dataset through various dashboards has provided valuable insights into sales performance, customer behavior, and product dynamics. Here are the key conclusions and actionable recommendations for the business:
 
-- Conclusions
   - Sales Performance:
 
 The analysis identified trends in sales revenue, order volume, and average order value over time, revealing peak sales periods and underperforming quarters.
