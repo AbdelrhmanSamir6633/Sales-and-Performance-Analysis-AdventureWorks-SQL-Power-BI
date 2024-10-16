@@ -184,8 +184,13 @@ Foster loyalty programs to incentivize repeat purchases from existing customers 
 
 By implementing these recommendations, the business can enhance its operational efficiency, drive revenue growth, and improve customer satisfaction. Continuous monitoring and analysis of the AdventureWorks dataset will provide ongoing insights, enabling data-driven decision-making for sustained success.
 
-## Link of Dataset used
+## Source of Dataset used
 https://learn.microsoft.com/en-us/sql/samples/adventureworks-install-configure?view=sql-server-ver15&tabs=ssms
+
+## Download Dataset from here
+- <a href="https://github.com/Microsoft/sql-server-samples/releases/download/adventureworks/AdventureWorksDW2019.bak">Download Dataset Now</a>
+
+
 
 
 ## Folder Structure
