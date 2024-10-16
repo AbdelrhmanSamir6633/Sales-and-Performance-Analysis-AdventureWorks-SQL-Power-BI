@@ -55,9 +55,51 @@ In an analysis project using the AdventureWorks dataset, several tools and techn
   - *Objective*: Identify the business problem or goals for the analysis. For example, increasing sales, understanding customer behavior, or optimizing inventory.
   - *Action*: Define specific objectives and key performance indicators (KPIs).
   - *Outcome*: A clear problem statement or hypothesis to guide the analysis.
+
 2- Data Exploration and Familiarization
 
-*Objective*: Understand the structure, relationships, and contents of the AdventureWorks dataset.
-*Action*: Explore the database schema, review key tables (e.g., InternetSales, Product, Customer, Date), and examine relationships between tables.
-*Tools*: SQL Server Management Studio (SSMS), SQL queries for schema inspection.
-*Outcome*: Comprehensive understanding of the dataset structure and identification of relevant tables and fields for analysis.
+  - *Objective*: Understand the structure, relationships, and contents of the AdventureWorks dataset.
+  - *Action*: Explore the database schema, review key tables (e.g., InternetSales, Product, Customer, Date), and examine relationships between tables.
+  - *Tools*: SQL Server Management Studio (SSMS), SQL queries for schema inspection.
+  - *Outcome*: Comprehensive understanding of the dataset structure and identification of relevant tables and fields for analysis.
+
+3- Data Extraction
+  - *Objective*: Extract the relevant data from the AdventureWorks database.
+  - *Action*: Write SQL queries to retrieve data from the required tables. This may involve joining multiple tables, filtering rows, and selecting specific columns.
+  - *Example*: Extracting sales data by product, customer information, and order details.
+  - *Tools*: SQL, SSMS. 
+  - *Outcome*: Clean and well-structured data sets ready for analysis.
+
+4- Data Cleaning and Transformation
+   - *Objective*: Prepare the data for analysis by handling missing values, standardizing formats, and creating new calculated fields.
+   - *Action*: Remove duplicates, handle null values, filter unnecessary rows, and format columns appropriately.
+   - *Transformations*: Create new features like:
+                         * Total Sales = SUM(Sales Amount)
+                         * Total Budget = Sum(Budget Amount)
+                         * Profit & Loss = Total Sales - Total Budget
+                         * Sales Efficiency (ROI) = Total Sales / Total Budget
+   - *Tools*: Power BI (Power Query).
+   - *Outcome*: Cleaned, structured data that is ready for analysis and insights. 
+
+5- Exploratory Data Analysis (EDA)
+  - *Objective*: Identify patterns, trends, and insights within the data.
+  - *Action*: Perform statistical analysis, calculate summary statistics (e.g., total sales, average order value), and create visualizations to explore the data.
+  - *Techniques*:
+    * Grouping data (e.g., sales by region or product).
+    * Analyzing customer segments (e.g., most frequent or high-spending customers).
+  - *Tools*: SQL, Power BI for visualization.
+  - *Outcome*: Initial insights and potential areas of interest or improvement.
+
+6- Data Visualization and Reporting
+  - *Objective*: Present key findings through visualizations and reports for better decision-making.
+  - *Action*: Create dashboards, graphs, and charts that communicate trends and patterns effectively.
+  - *Visualizations*: Sales Overview, product performance, customer segmentation, and geographical analysis.
+  - *Tools*: Power BI.
+  - *Outcome*: Interactive dashboards that showcase actionable insights for stakeholders.
+
+
+
+
+
+
+
