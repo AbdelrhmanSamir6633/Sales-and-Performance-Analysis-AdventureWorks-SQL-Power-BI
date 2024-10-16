@@ -101,10 +101,10 @@ In an analysis project using the AdventureWorks dataset, several tools and techn
   - Objective: Derive actionable insights and offer data-driven recommendations.
   - Action: Analyze the visualizations and statistics to answer key business questions.
       * Examples:
-            ** Identifying Profit and Loss through time and their contributing factors.
-            ** Identifying top-selling products and their contributing factors.
-            ** Determining underperforming regions.
-            ** Recommending inventory adjustments based on product demand.
+            - Identifying Profit and Loss through time and their contributing factors.
+            - Identifying top-selling products and their contributing factors.
+            - Determining underperforming regions.
+            - Recommending inventory adjustments based on product demand.
   - Tools: Power BI.
   - Outcome: A set of data-driven insights that inform strategic decisions.
 
