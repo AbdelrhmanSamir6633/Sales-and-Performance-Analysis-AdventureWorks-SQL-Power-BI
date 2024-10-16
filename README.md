@@ -184,3 +184,13 @@ Foster loyalty programs to incentivize repeat purchases from existing customers 
 
 By implementing these recommendations, the business can enhance its operational efficiency, drive revenue growth, and improve customer satisfaction. Continuous monitoring and analysis of the AdventureWorks dataset will provide ongoing insights, enabling data-driven decision-making for sustained success.
 
+
+## Folder Structure
+......................................
+...................................
+....................................
+......................................
+
+
+## Project Files/Folders
+
