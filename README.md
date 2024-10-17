@@ -177,6 +177,9 @@ The model is structured with relationships connecting the fact tables (sales and
 ![Products_Details_Dashboard](https://github.com/user-attachments/assets/9daf84fa-fae2-4754-a746-4e80f9708412)
 
 
+- <a href="https://app.powerbi.com/view?r=eyJrIjoiNWRhZDQ5MmMtMWY0Yy00ZmJhLTgwNzctYjNhY2JjODBiYzNhIiwidCI6ImFiZmYzMTIyLTQ0NWMtNDFjMy04NmNiLTZiZWQxOTI0YzEyZCJ9">Power BI Interactive Dashboards </a>
+
+
 ## Conclusion
 
 The analysis of the AdventureWorks dataset through various dashboards has provided valuable insights into sales performance, customer behavior, and product dynamics. Here are the key conclusions and actionable recommendations for the business:
