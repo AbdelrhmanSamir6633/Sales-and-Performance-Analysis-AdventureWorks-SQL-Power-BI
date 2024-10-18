@@ -1,11 +1,18 @@
 # AdventureWorks-DataAnalysis-Project
+
 Data analysis project using the AdventureWorks sample dataset from Microsoft Learn. Includes exploratory data analysis, SQL queries, and Power BI visualizations to gain insights into sales, customers, and product performance.
+
+## Problem Overview
+![Problem](https://github.com/user-attachments/assets/b76a665a-87c4-417d-a94b-8eb94a23011b)
+
 ## Project Overview
+
 The purpose of the project is to analyze and gain insights into business operations using the AdventureWorks dataset, which is a sample database provided by Microsoft. AdventureWorks simulates a fictional company that manufactures and sells bicycles and related products globally. The dataset contains various tables representing different aspects of the business, such as sales, purchasing, production, human resources, and customers.
 
 The business problem typically addressed involves identifying areas for improving performance, such as increasing sales, optimizing inventory, enhancing customer satisfaction, or improving operational efficiency.
 
 ## Dataset Description
+
 The AdventureWorks dataset is a comprehensive and relational sample database provided by Microsoft, designed to mimic the operations of a global, fictional manufacturing company that sells bicycles and related products. Here's a breakdown of the key components of the dataset:
 
 1. Tables: The dataset contains numerous tables, each representing different entities within the business, such as:
