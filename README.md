@@ -156,7 +156,7 @@ In an analysis project using the AdventureWorks dataset, several tools and techn
   - DIM_Products: Holds product-related details, including product categories, colors, descriptions, and models.
   - DIM_Calendar: Provides a time dimension for the model, containing day, month, quarter, and year details to enable time-based analysis.
 
-*Key Measures:*
+*Key Measures Table:*
   - Includes predefined measures such as profit & loss, sales efficiency (ROI), and budget amounts, helping to streamline analysis.
 
 The model is structured with relationships connecting the fact tables (sales and budget) to the relevant dimension tables (customer, product, and calendar). These relationships enable robust reporting and data exploration, allowing for insightful analysis of sales trends, customer demographics, product performance, and budget variance over time.
