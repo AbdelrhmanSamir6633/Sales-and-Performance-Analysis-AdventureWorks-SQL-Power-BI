@@ -2,20 +2,34 @@
 
 Data analysis project using the AdventureWorks sample dataset from Microsoft Learn. Includes exploratory data analysis, SQL queries, and Power BI visualizations to gain insights into sales, customers, and product performance.
 
-## Problem Overview
+# Content:
+
+1- Problem Overview
+2- Project Overview
+3- Dataset Description
+4- Tools and Technologies Used
+5- Analysis Process/Methodology
+6- Key Visualizations
+7- Conclusion
+8- Business Recommendations
+9- Source of Dataset used
+10- Project Files/Folders
+
+
+## (1/10) Problem Overview
 ![Problem](https://github.com/user-attachments/assets/b76a665a-87c4-417d-a94b-8eb94a23011b)
 
-## Project Overview
+## (2/10) Project Overview
 
 The purpose of the project is to analyze and gain insights into business operations using the AdventureWorks dataset, which is a sample database provided by Microsoft. AdventureWorks simulates a fictional company that manufactures and sells bicycles and related products globally. The dataset contains various tables representing different aspects of the business, such as sales, purchasing, production, human resources, and customers.
 
 The business problem typically addressed involves identifying areas for improving performance, such as increasing sales, optimizing inventory, enhancing customer satisfaction, or improving operational efficiency.
 
-## Dataset Description
+## (3/10) Dataset Description
 
 The AdventureWorks dataset is a comprehensive and relational sample database provided by Microsoft, designed to mimic the operations of a global, fictional manufacturing company that sells bicycles and related products. Here's a breakdown of the key components of the dataset:
 
-1. Tables: The dataset contains numerous tables, each representing different entities within the business, such as:
+3.1. Tables: The dataset contains numerous tables, each representing different entities within the business, such as:
 
   - Sales: Includes information about orders, invoices, salespeople, and sales territories.
   - Products: Contains data about individual products, their categories, prices, and inventory.
@@ -24,16 +38,16 @@ The AdventureWorks dataset is a comprehensive and relational sample database pro
   - Purchasing: Information related to suppliers, purchase orders, and vendor interactions.
   - Production: Tables that describe manufacturing processes, product assembly, and work orders.
 
-2. Attributes: Each table has several fields (columns) that define specific attributes about that entity. For example:
+3.2. Attributes: Each table has several fields (columns) that define specific attributes about that entity. For example:
 
   - SalesOrderDetail: Contains attributes like OrderID, ProductID, OrderQty, and UnitPrice.
   - Customer: Has fields like CustomerID, FirstName, LastName, and EmailAddress.
 
-3. Relationships: 
+3.3. Relationships: 
 
   The dataset is highly relational, with primary and foreign key relationships linking different tables. For instance, the SalesOrderHeader table (containing summary sales information) is linked to the SalesOrderDetail table (containing detailed information about individual items in each order) via a SalesOrderID key.
 
-4. Business Operations: The dataset represents various business functions:
+3.4. Business Operations: The dataset represents various business functions:
 
   - Sales and marketing: Analyzing trends in customer purchases, profitability by product, and sales territories.
   - Inventory management: Monitoring product stock levels and supplier performance.
@@ -42,7 +56,7 @@ The AdventureWorks dataset is a comprehensive and relational sample database pro
 
 This dataset is often used in projects to simulate real-world business scenarios, where analysts extract meaningful insights to improve decision-making, such as optimizing sales strategies, enhancing customer engagement, or improving operational workflows.
 
-## Tools and Technologies Used
+## (4/10) Tools and Technologies Used
 
 
 In an analysis project using the AdventureWorks dataset, several tools and technologies can be employed for data extraction, transformation, analysis, and visualization. Commonly used tools include:
@@ -56,21 +70,21 @@ In an analysis project using the AdventureWorks dataset, several tools and techn
   - Excel:
       * Used for basic data analysis, data preparing, and data preprocessing.
 
-## Analysis Process/Methodology
+## (5/10) Analysis Process/Methodology
 
-1- **Understanding the Business Problem:**
+5.1. **Understanding the Business Problem:**
   - *Objective*: Identify the business problem or goals for the analysis. For example, increasing sales, understanding customer behavior, or optimizing inventory.
   - *Action*: Define specific objectives and key performance indicators (KPIs).
   - *Outcome*: A clear problem statement or hypothesis to guide the analysis.
 
-2- Data Exploration and Familiarization
+5.2. Data Exploration and Familiarization
 
   - *Objective*: Understand the structure, relationships, and contents of the AdventureWorks dataset.
   - *Action*: Explore the database schema, review key tables (e.g., InternetSales, Product, Customer, Date), and examine relationships between tables.
   - *Tools*: SQL Server Management Studio (SSMS), SQL queries for schema inspection.
   - *Outcome*: Comprehensive understanding of the dataset structure and identification of relevant tables and fields for analysis.
 
-3- Data Extraction
+5.3. Data Extraction
   - *Objective*: Extract the relevant data from the AdventureWorks database.
   - *Action*: Write SQL queries to retrieve data from the required tables. This may involve joining multiple tables, filtering rows, and selecting specific columns.
   - *Example*: Extracting sales data by product, customer information, and order details.
@@ -94,7 +108,7 @@ In an analysis project using the AdventureWorks dataset, several tools and techn
 
 
 
-4- Data Cleaning and Transformation
+5.4. Data Cleaning and Transformation
    - *Objective*: Prepare the data for analysis by handling missing values, standardizing formats, and creating new calculated fields.
    - *Action*: Remove duplicates, handle null values, filter unnecessary rows, and format columns appropriately.
    - *Transformations*: Create new features like:
@@ -105,7 +119,7 @@ In an analysis project using the AdventureWorks dataset, several tools and techn
    - *Tools*: Power BI (Power Query).
    - *Outcome*: Cleaned, structured data that is ready for analysis and insights. 
 
-5- Exploratory Data Analysis (EDA)
+5.5. Exploratory Data Analysis (EDA)
   - *Objective*: Identify patterns, trends, and insights within the data.
   - *Action*: Perform statistical analysis, calculate summary statistics (e.g., total sales, average order value), and create visualizations to explore the data.
   - *Techniques*:
@@ -114,14 +128,14 @@ In an analysis project using the AdventureWorks dataset, several tools and techn
   - *Tools*: SQL, Power BI for visualization.
   - *Outcome*: Initial insights and potential areas of interest or improvement.
 
-6- Data Visualization and Reporting
+5.6. Data Visualization and Reporting
   - *Objective*: Present key findings through visualizations and reports for better decision-making.
   - *Action*: Create dashboards, graphs, and charts that communicate trends and patterns effectively.
   - *Visualizations*: Sales Overview, product performance, customer segmentation, and geographical analysis.
   - *Tools*: Power BI.
   - *Outcome*: Interactive dashboards that showcase actionable insights for stakeholders.
 
-7- Generating Insights and Recommendations
+5.7. Generating Insights and Recommendations
   - Objective: Derive actionable insights and offer data-driven recommendations.
   - Action: Analyze the visualizations and statistics to answer key business questions.
       * Examples:
@@ -132,13 +146,13 @@ In an analysis project using the AdventureWorks dataset, several tools and techn
   - Tools: Power BI.
   - Outcome: A set of data-driven insights that inform strategic decisions.
 
-8- Delivering Results and Stakeholder Communication
+5.8. Delivering Results and Stakeholder Communication
   - *Objective*: Communicate findings to stakeholders in a clear and actionable manner.
   - *Action*: Present the insights, recommendations, and dashboards through presentations or reports.
   - *Tools*: PowerPoint (for presentation), Power BI (for interactive dashboards), PDF/Excel (for static reports).
   - *Outcome*: A presentation of insights and recommended actions that align with the business objectives.
 
-## Key Visualizations
+## (6/10) Key Visualizations
 
   - **Power BI Data Model Overview:**
 
@@ -187,7 +201,7 @@ The model is structured with relationships connecting the fact tables (sales and
 - <a href="https://app.powerbi.com/view?r=eyJrIjoiNWRhZDQ5MmMtMWY0Yy00ZmJhLTgwNzctYjNhY2JjODBiYzNhIiwidCI6ImFiZmYzMTIyLTQ0NWMtNDFjMy04NmNiLTZiZWQxOTI0YzEyZCJ9">Power BI Interactive Dashboards </a>
 
 
-## Conclusion
+## (7/10) Conclusion
 
 The analysis of the AdventureWorks dataset through various dashboards has provided valuable insights into sales performance, customer behavior, and product dynamics. Here are the key conclusions and actionable recommendations for the business:
 
@@ -206,7 +220,7 @@ Geographic distribution analysis indicated regions with high sales potential, gu
 The product analysis showed clear patterns in sales by category and individual products, with some items demonstrating strong sales performance while others had excessive inventory levels.
 Profitability analysis indicated that certain products, although popular, may not be contributing adequately to overall profit margins due to high costs.
 
-## Business Recommendations
+## (8/10) Business Recommendations
 
   - Enhance Marketing Strategies:
 
@@ -235,7 +249,7 @@ Foster loyalty programs to incentivize repeat purchases from existing customers 
 
 By implementing these recommendations, the business can enhance its operational efficiency, drive revenue growth, and improve customer satisfaction. Continuous monitoring and analysis of the AdventureWorks dataset will provide ongoing insights, enabling data-driven decision-making for sustained success.
 
-## Source of Dataset used
+## (9/10) Source of Dataset used
 https://learn.microsoft.com/en-us/sql/samples/adventureworks-install-configure?view=sql-server-ver15&tabs=ssms
 
 #### Downloading Dataset " AdventureWorksDW2019 "
@@ -247,7 +261,7 @@ https://learn.microsoft.com/en-us/sql/samples/adventureworks-install-configure?v
 
 
 
-## Project Files/Folders
+## (10/10) Project Files/Folders
 
 - <a href="https://github.com/AbdelrhmanSamir6633/AdventureWorks-DataAnalysis-SQL-Power-BI/tree/main/1_Problem%20Explanation">1_Problem Explanation</a>
 
