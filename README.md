@@ -5,14 +5,23 @@ Data analysis project using the AdventureWorks sample dataset from Microsoft Lea
 # Content:
 
 1- Problem Overview
+
 2- Project Overview
+
 3- Dataset Description
+
 4- Tools and Technologies Used
+
 5- Analysis Process/Methodology
+
 6- Key Visualizations
+
 7- Conclusion
+
 8- Business Recommendations
+
 9- Source of Dataset used
+
 10- Project Files/Folders
 
 
