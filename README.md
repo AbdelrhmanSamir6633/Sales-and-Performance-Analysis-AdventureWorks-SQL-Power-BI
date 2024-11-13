@@ -124,7 +124,7 @@ In an analysis project using the AdventureWorks dataset, several tools and techn
        * Total Sales = SUM(Sales Amount)
        * Total Budget = Sum(Budget Amount)
        * Profit & Loss = Total Sales - Total Budget
-       * Sales Efficiency (ROI) = Total Sales / Total Budget
+       * Sales Efficiency (ROI) = [(Total Sales - Total Budget) / Total Budget]*100
    - *Tools*: Power BI (Power Query).
    - *Outcome*: Cleaned, structured data that is ready for analysis and insights. 
 
