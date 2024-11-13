@@ -120,7 +120,7 @@ In an analysis project using the AdventureWorks dataset, several tools and techn
 5.4. Data Cleaning and Transformation
    - *Objective*: Prepare the data for analysis by handling missing values, standardizing formats, and creating new calculated fields.
    - *Action*: Remove duplicates, handle null values, filter unnecessary rows, and format columns appropriately.
-   - *Transformations*: Create new features like:
+   - *Transformations*: Create new Measures like:
        * Total Sales = SUM(Sales Amount)
        * Total Budget = Sum(Budget Amount)
        * Profit & Loss = Total Sales - Total Budget
